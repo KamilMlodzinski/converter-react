@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { currencies } from "../currencies";
 import "./style.css";
-import ResultRate from "./ResultRate";
-import ResultAmount from "./ResultAmount";
+import { ResultRate } from "./ResultRate";
+import { ResultAmount } from "./ResultAmount";
 
 const Form = ({ result, calculateResult }) => {
   const [currency, setCurrency] = useState(currencies[0].shortName);

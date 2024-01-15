@@ -7,4 +7,4 @@ const Container = ({ children }) => (
   </div>
 );
 
-export default Container
+export default Container;
