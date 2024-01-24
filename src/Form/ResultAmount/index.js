@@ -1,7 +1,6 @@
 import "./style.css";
 
-const ResultAmount = ({ result }) => {
-    return (
+const ResultAmount = ({ result }) => (
         <span className="result--amount">
             {result && (
                 <>
@@ -11,7 +10,7 @@ const ResultAmount = ({ result }) => {
                 </>
             )}
         </span>
-    )
-};
+    );
+
 
 export default ResultAmount;

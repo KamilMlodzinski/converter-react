@@ -1,8 +1,9 @@
+import React from "react";
 import { useState } from "react";
 import { currencies } from "../currencies";
 import "./style.css";
-import { ResultRate } from "./ResultRate";
-import { ResultAmount } from "./ResultAmount";
+import ResultRate from "./ResultRate";
+import ResultAmount from "./ResultAmount";
 
 const Form = ({ result, calculateResult }) => {
   const [currency, setCurrency] = useState(currencies[0].shortName);
@@ -16,8 +17,8 @@ const Form = ({ result, calculateResult }) => {
 
 
   return (
-    <div class="container">
-    <form onSubmit={onFormSubmit}>
+
+    <form className="container" onSubmit={onFormSubmit}>
       <fieldset className="form__fieldset">
         <legend className="form__legend">Kalkulator walutowy</legend>
         <p>
@@ -73,7 +74,7 @@ const Form = ({ result, calculateResult }) => {
         <p className="form__paragraph--fontSmall">Pola wymagane oznaczone są *</p>
       </fieldset>
     </form>
-    </div>
+
   );
 };
 
