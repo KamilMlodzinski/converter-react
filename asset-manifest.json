@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/converter-react/static/css/main.c674c78c.chunk.css",
+    "main.js": "/converter-react/static/js/main.1d5b1fa7.chunk.js",
+    "main.js.map": "/converter-react/static/js/main.1d5b1fa7.chunk.js.map",
+    "runtime-main.js": "/converter-react/static/js/runtime-main.b2c4cc67.js",
+    "runtime-main.js.map": "/converter-react/static/js/runtime-main.b2c4cc67.js.map",
+    "static/js/2.6b4a1066.chunk.js": "/converter-react/static/js/2.6b4a1066.chunk.js",
+    "static/js/2.6b4a1066.chunk.js.map": "/converter-react/static/js/2.6b4a1066.chunk.js.map",
+    "static/js/3.ddf649c5.chunk.js": "/converter-react/static/js/3.ddf649c5.chunk.js",
+    "static/js/3.ddf649c5.chunk.js.map": "/converter-react/static/js/3.ddf649c5.chunk.js.map",
+    "index.html": "/converter-react/index.html",
+    "precache-manifest.4aada85b3f146428bcb7a789f57959cc.js": "/converter-react/precache-manifest.4aada85b3f146428bcb7a789f57959cc.js",
+    "service-worker.js": "/converter-react/service-worker.js",
+    "static/css/main.c674c78c.chunk.css.map": "/converter-react/static/css/main.c674c78c.chunk.css.map",
+    "static/js/2.6b4a1066.chunk.js.LICENSE.txt": "/converter-react/static/js/2.6b4a1066.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/converter-react/static/media/background.a059ddb6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2c4cc67.js",
+    "static/js/2.6b4a1066.chunk.js",
+    "static/css/main.c674c78c.chunk.css",
+    "static/js/main.1d5b1fa7.chunk.js"
+  ]
+}
