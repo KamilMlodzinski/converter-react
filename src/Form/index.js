@@ -20,7 +20,7 @@ const Form = ({ result, calculateResult }) => {
 
     <form className="container" onSubmit={onFormSubmit}>
       <fieldset className="form__fieldset">
-        <legend className="form__legend">Kalkulator walutowy</legend>
+        <legend className="form__legend">Kalkulator Walutowy</legend>
         <p>
           <label>
             <span className="form__labelText">
